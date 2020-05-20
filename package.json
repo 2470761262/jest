@@ -1,0 +1,19 @@
+{
+    "name": "justtest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "testAll": "jest --watchAll",
+        "test": "jest --watch",
+        "coverage": "jest --coverage"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.4.5",
+        "@babel/plugin-transform-modules-commonjs": "^7.9.6",
+        "@babel/preset-env": "^7.4.5",
+        "jest": "^24.8.0"
+    }
+}
