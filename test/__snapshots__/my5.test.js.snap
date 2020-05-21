@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试 generateConfig 函数 1`] = `
+Object {
+  "nickName": "谢谢你",
+  "nickName1": "忙着淋雨",
+  "nickName2": "sorry",
+  "time": Any<Date>,
+}
+`;
