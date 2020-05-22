@@ -8,7 +8,14 @@ test('测试 callback  run ', () => {
     // }
     // runCallBack(callback)
     // expect(Flag).toBe(true)
-
+    /**
+     * const fun = jest.fn();
+     * //更底层一些，同等直接在jest.fn()传入方法
+     * func.mockImplementation(()=>{
+     * 
+     * })
+     * 
+     */
     //---------------------------
 
     //使用jest的mock来判断一个方法是否有没有被调用
@@ -17,6 +24,7 @@ test('测试 callback  run ', () => {
      * jest.fn(()=>{
      *  return 456;
      * })
+     * 
      */
     const func = jest.fn();
     runCallBack(func)
